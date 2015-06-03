@@ -213,27 +213,27 @@ static const uint8_t TurnOff_CHECKPHONE_Msg = 100;
 // Control Vibrations
 // SPECIAL FLAG TO HARD CODE VIBRATIONS OFF; If you want no vibrations, SET TO 111 (true)
 // Use for Sleep Face or anyone else for a custom load
-uint8_t HardCodeNoVibrations = 100;
+uint8_t HardCodeNoVibrations = 111;
 
 // Control Animations
 // SPECIAL FLAG TO HARD CODE ANIMATIONS OFF; If you want no animations, SET TO 111 (true)
 // SPECIAL FLAG TO HARD CODE ANIMATIONS ALL ON; If you want all animations, SET TO 111 (true)
 // This is for people who want old ones too
 // Use for a custom load
-uint8_t HardCodeNoAnimations = 100;
+uint8_t HardCodeNoAnimations = 111;
 uint8_t HardCodeAllAnimations = 100;
 
 // Control Vibrations for Config File
 // IF YOU WANT NO VIBRATIONS, SET TO 111 (true)
-uint8_t TurnOffAllVibrations = 100;
+uint8_t TurnOffAllVibrations = 111;
 // IF YOU WANT LESS INTENSE VIBRATIONS, SET TO 111 (true)
 uint8_t TurnOffStrongVibrations = 100;
 
 // Control Raw data
 // If you want to turn off vibrations for calculated raw, set to 111 (true)
-uint8_t TurnOffVibrationsCalcRaw = 100;
+uint8_t TurnOffVibrationsCalcRaw = 111;
 // If you want to see unfiltered raw, set to 111 (true)
-uint8_t TurnOnUnfilteredRaw = 100;
+uint8_t TurnOnUnfilteredRaw = 111;
 
 // ** END OF CONSTANTS THAT CAN BE CHANGED; DO NOT CHANGE IF YOU DO NOT KNOW WHAT YOU ARE DOING **
 
